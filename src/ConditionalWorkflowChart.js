@@ -31,7 +31,7 @@ const nodes = [
   { id: '9', data: { label: 'Check Gender' }, position: { x: 100, y: 500 } },
   
   // Male Node
-  { id: '10', data: { label: 'Gender = Male' }, position: { x: -200, y: 600 } },
+  { id: '10', data: { label: 'Gender = Male' }, position: { x: -50, y: 600 } },
   
   // Female Node
   { id: '11', data: { label: 'Gender = Female' }, position: { x: 350, y: 600 } },
@@ -43,25 +43,25 @@ const nodes = [
     { id: '22', data: { label: 'End' }, position: { x: 350, y: 800 } },
   
   // Pincode Check Node
-  { id: '13', data: { label: 'Check Pincode' }, position: { x: -200, y: 700 } },
+  { id: '13', data: { label: 'Check Pincode' }, position: { x: -50, y: 700 } },
   
   // Pincode Starts with '40' Node
-  { id: '14', data: { label: 'Pincode starts with \'40\'' }, position: { x: -250, y: 800 } },
+  { id: '14', data: { label: 'Pincode starts with \'40\'' }, position: { x: -300, y: 800 } },
   
   // Pincode Else Node
-  { id: '15', data: { label: 'Pincode Else' }, position: { x: 50, y: 800 } },
+  { id: '15', data: { label: 'Pincode Else' }, position: { x: 150, y: 800 } },
   
   // Update DB Node for Pincode Starts with '40'
-  { id: '17', data: { label: 'Update DB: status = \'loan_approval_required\'' }, position: { x: -250, y: 900 } },
+  { id: '17', data: { label: 'Update DB: status = \'loan_approval_required\'' }, position: { x: -300, y: 900 } },
   
   // End Node for Pincode Starts with '40'
-  { id: '18', data: { label: 'End' }, position: { x: -250, y: 1000 } },
+  { id: '18', data: { label: 'End' }, position: { x: -300, y: 1000 } },
 
   // Update DB Node for Pincode Else
-  { id: '20', data: { label: 'Update DB: status = \'loan_approved\'' }, position: { x: 50, y: 900 } },
+  { id: '20', data: { label: 'Update DB: status = \'loan_approved\'' }, position: { x: 150, y: 900 } },
 
   // End Node for Pincode Else
-  { id: '21', data: { label: 'End' }, position: { x: 50, y: 1000 } },
+  { id: '21', data: { label: 'End' }, position: { x: 150, y: 1000 } },
   
 ];
 
