@@ -134,7 +134,7 @@ const ConditionalWorkflowChart = ({ userData }) => {
         textAlign: 'center',
         marginBottom: '20px'
       }}>
-        Workflow Chart
+        
       </div>
       <ReactFlow nodes={nodes} edges={edges} fitView>
         <MiniMap />
